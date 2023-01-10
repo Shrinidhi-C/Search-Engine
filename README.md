@@ -40,8 +40,11 @@ We compare all queries types of our IR systems with elastic searchengine and fol
 Query             |Our IR System    | Elastic Search
 
 Free Text Query   |0.01 secs        | 0.063 secs
+
 Wildcard Query    |0.87 secs        | 0.052 secs
+
 Proximity Query   |0.0014 secs      | NA
+
 Phrase Query      |0.012 secs       | NA
 
 
@@ -52,8 +55,13 @@ as relevant documents. For Free Text query Precision is 0.97 and Recall is 1. Th
 plus a few false positives.
 
 LEARNING OUTCOME
+
 ● Building IR systems for query searching.
+
 ● Building Posting listing and Dictionary using B-Trees
+
 ● Handling Different types of Queries
+
 ● Building Spelling Correction using Jaccard Coefficient
+
 ● Hands on of ElasticSearch
